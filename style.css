@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 75px;
+    margin: 0 auto;
+}
+/*--------------------------------------------------header--------------------------------------------------------*/
+
+.header-part-1{
+  width: 100%;
+}
+.header-part-1-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 140px;
+  
+}
+
+.header-part-1-text-container img{
+  width: 1600px;
+  height: 808px;
+}
+
+/*---------------------------------------------------main-1----------------------------------------*/
+
+#main-part-1{
+    width: 100%;
+   background-color: #FFFFFF;
+  
+  }
+
+  .main-part-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 87px;
+  }
+  .main-part-1-img-container{
+    flex: 1;
+  }
+  .main-part-1-img-container img{
+    width: 569px;
+height: 723.3px;
+
+    
+  }
+  .main-part-1-text-container{
+    flex: 1;
+    padding-left: 40px;
+    
+  }
+  .main-part-1-text-container h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+    width: 288px;
+height: 94px;
+  }
+  .main-part-1-text-container p{
+    
+  
+    width: 416px;
+    height: 104px;
+  
+    
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    
+    color: #444343;
+    margin-bottom: 16px;
+  }
+  
+.main-part-1-text-container img{
+    width: 349px;
+height: 162px;
+}
+.main-part-1-text2-container{
+    display: flex;
+    justify-content: center;
+}
+.main-part-1-text2-container h1{
+  
+
+margin-top: 214px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark 01 */
+
+color: #151414;
+}
+.main-part-1-img-2-container{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.main-part-1-img-2-container img{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    width: 1141px;
+height: 202.96px;
+}
+
+/*-----------------------------------main-2----------------------------------*/
+.main-2 {
+    width: 100%;
+    background-image: url(images/Rectangle\ 3\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    height: 300px;
+    margin-bottom: 130px;
+}
+
+
+.h-container {
+   
+    width: 1140px;
+    height: 300px;
+  
+    
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+}
+
+
+
+.about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    transition: 0.3s;
+}
+
+.about-card-view {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 64px;
+   
+}
+
+.about-card-view h4 {
+    margin-top: 59px;
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #FFFFFF;
+  
+    
+}
+.about-card-view button{
+
+width: 88px;
+
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #005FAC;
+width: 160px;
+height: 64px;
+
+
+background: #FFFFFF;
+border-radius: 5px;
+border: none;
+}
+.about-card-view button:hover{
+    cursor: pointer;
+}
+
+
+/*----------------------------------------footer------------------------------*/
+#main-part-2{
+    width: 100%;
+  
+   background-color: black;
+   
+  }
+  .main-part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    
+  }
+  .main-part-2-img-container{
+    flex: 1;
+    position: relative;
+  }
+  .main-part-2-img-container img{
+    width: 485px;
+    height: 317px;
+  }
+ 
+ 
+  .main-part-2-text-container{
+    flex: 1;
+    padding-left: 331px;
+  }
+.main-part-2-text-container img{
+  
+    width: 325px;
+height: 204px;
+}
+.main-part-2-text-container img:hover{
+  cursor: pointer;
+}
